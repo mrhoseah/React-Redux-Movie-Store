@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
  class Movies extends Component {
+     constructor(props){
+         super()
+     }
   render() {
     return (
       <div>
           <h1>Movies Shop</h1>
-          <h3>Available Movies</h3>
-          <button style={styles}>Rend Movie</button>
+          <h3>Available Movies {this.props.movies}</h3>
+          <button style={styles}>Buy Movie</button>
       </div>
     )
   }
