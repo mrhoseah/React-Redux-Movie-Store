@@ -3,14 +3,16 @@ import { createSlice} from '@reduxjs/toolkit';
 const movieSlice =createSlice({
     name:'movies',
     initialState:{
-        movies: 70
+        movieInfo: {
+            quantity: 70
+        }
     },
     reducers:{
-        added:state=>{
-            state.movies+=1
+        added:(state,action)=>{
+            state.movieInfo.quantity +=action.payload
         },
-        sold:state=>{
-            state.movies-=1
+        sold:(state,action)=>{
+            state.movieInfo.quantity-=action.payload
         },
     },
 
