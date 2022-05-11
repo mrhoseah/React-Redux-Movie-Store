@@ -1,4 +1,4 @@
-#React Js with Redux
+## React Js with Redux
 This a demo movie shop with movies and users
 
 Actions available on the movie shop are 'sold' and 'added'Cancel changes
