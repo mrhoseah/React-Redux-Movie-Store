@@ -1,9 +1,9 @@
 #React Js with Redux
-This a demo movie shop with movies and users\
+This a demo movie shop with movies and users
 
-Actions available on the movie shop are 'sold' and 'added'\
+Actions available on the movie shop are 'sold' and 'added'Cancel changes
 
-Go through the cod and feel free to make improvement on this small project.\
+Go through the cod and feel free to make improvement on this small project.
 
 ## Available Scripts
 
